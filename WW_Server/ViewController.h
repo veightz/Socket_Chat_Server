@@ -9,6 +9,15 @@
 #import <Cocoa/Cocoa.h>
 
 @interface ViewController : NSViewController
+@property (weak, nonatomic) IBOutlet NSTextField *addrTextField;
+@property (weak, nonatomic) IBOutlet NSTextField *portTextField;
+
+@property (weak, nonatomic) IBOutlet NSTextField *inputField;
+@property  IBOutlet NSTextView *textField;
+
+- (IBAction)listenAction:(id)sender;
+- (IBAction)sendAction:(id)sender;
+
 
 
 @end
